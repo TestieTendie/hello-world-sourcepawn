@@ -27,6 +27,12 @@ This version adds a delay to the chat command, so that the "Hello, World!" messa
 
 **PrintHello:** This function is triggered by the timer created in ChatCommand. It sends the "Hello, World!" message to the player who triggered the timer.
 
+<h2 align="center">named-delayed-chat-hello-world.sp</h2>
+
+This version contains the plugin's name and other details for identification, currently our plugin showed only by its filename when entering the ```sm plugins list``` command in the server console, now it has a full set of information.
+
+**pluginInfo:** This plugin has a `pluginInfo` struct that provides the name, author, description, version, and URL of the plugin.
+
 <h1 align="center">How to Use</h1>
 
 - Clone this repository.

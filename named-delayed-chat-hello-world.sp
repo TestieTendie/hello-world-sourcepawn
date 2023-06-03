@@ -1,6 +1,6 @@
 #include <sourcemod>
 
-public Plugin pluginInfo =
+public Plugin myinfo =
 {
     name = "Delayed Chat Hello World Plugin",
     author = "Testie Tendie",

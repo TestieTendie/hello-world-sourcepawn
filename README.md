@@ -31,7 +31,7 @@ This version adds a delay to the chat command, so that the "Hello, World!" messa
 
 This version contains the plugin's name and other details for identification, currently our plugin showed only by its filename when entering the ```sm plugins list``` command in the server console, now it has a full set of information.
 
-**pluginInfo:** This plugin has a `pluginInfo` struct that provides the name, author, description, version, and URL of the plugin.
+**myinfo:** This plugin has a `myinfo` struct that provides the name, author, description, version, and URL of the plugin.
 
 <h1 align="center">How to Use</h1>
 
